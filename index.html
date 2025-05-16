@@ -27,7 +27,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 30px;
+      gap: 20px;
       z-index: 10;
     }
 
@@ -35,35 +35,35 @@
       background: white;
       color: #222;
       width: 95vw;
-      max-width: 480px;
-      border-radius: 18px;
-      padding: 30px 24px;
+      max-width: 380px;
+      border-radius: 14px;
+      padding: 16px 16px;
       text-align: center;
       box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-      font-size: 18px;
+      font-size: 14px;
     }
 
     .popup h2 {
-      margin: 0 0 16px 0;
-      font-size: 24px;
+      margin: 0 0 12px 0;
+      font-size: 18px;
     }
 
     .popup hr {
       border: none;
       border-top: 1px solid #ddd;
-      margin: 16px 0;
+      margin: 12px 0;
     }
 
     .popup p {
       margin: 0;
-      font-size: 17px;
+      font-size: 14px;
     }
 
     .options {
       background: #c9d1dc;
       width: 95vw;
-      max-width: 480px;
-      border-radius: 18px;
+      max-width: 380px;
+      border-radius: 14px;
       overflow: hidden;
       box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
     }
@@ -71,14 +71,14 @@
     .option {
       display: flex;
       align-items: center;
-      padding: 20px 22px;
+      padding: 10px 14px;
       border-top: 1px solid #ddd;
       cursor: default;
       color: #999;
       background-color: #c9d1dc;
       user-select: none;
-      gap: 18px;
-      font-size: 18px;
+      gap: 12px;
+      font-size: 14px;
     }
 
     .option:first-child {
@@ -99,8 +99,8 @@
     }
 
     .option svg {
-      width: 26px;
-      height: 26px;
+      width: 18px;
+      height: 18px;
       flex-shrink: 0;
       fill: currentColor;
     }
@@ -109,8 +109,8 @@
       position: absolute;
       top: 0;
       right: 0;
-      transform: translate(90px, -420px);
-      width: 100px;
+      width: 60px;
+      transform: translate(60px, -250px);
       animation: bounce 1.4s infinite;
       z-index: 11;
       pointer-events: none;
@@ -118,10 +118,10 @@
 
     @keyframes bounce {
       0%, 100% {
-        transform: translate(90px, -420px);
+        transform: translate(60px, -250px);
       }
       50% {
-        transform: translate(90px, -435px);
+        transform: translate(60px, -265px);
       }
     }
   </style>
